@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_shockinflux/card_shockinflux.dart';
+import 'package:flutter_shockinflux/credit_card_payment.dart';
 
 import 'credit_card_model.dart';
 

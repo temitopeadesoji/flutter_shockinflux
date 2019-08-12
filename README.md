@@ -14,7 +14,7 @@ A Flutter package for shockinflux payment gateway.
 
 ```dart
 dependencies:
-    flutter_shockinflux: 0.0.1
+    flutter_shockinflux: 1.0.0
 ```
 
 2.  Import the package
@@ -29,39 +29,17 @@ _With required parameters_
 
 ```dart
 
-    CreditCardWidget(
-        cardNumber: cardNumber,
-        expiryDate: expiryDate,
-        cardHolderName: cardHolderName,
-        cvvCode: cvvCode,
-        showBackView: isCvvFocused, //true when you want to show cvv(back) view
-    ),
-```
-
-_With optional parameters_
-
-```dart
-    CreditCardWidget(
-        cardNumber: cardNumber,
-        expiryDate: expiryDate,
-        cardHolderName: cardHolderName,
-        cvvCode: cvvCode,
-        showBackView: isCvvFocused,
-        cardbgColor: Colors.black,
-        height: 175,
-        textStyle: TextStyle(color: Colors.yellowAccent),
-        width: MediaQuery.of(context).size.width,
-        animationDuration: Duration(milliseconds: 1000),
-        ),
-```
-
-3.  Adding CreditCardForm
-
-```dart
-    CreditCardForm(
-      themeColor: Colors.red,
-      onCreditCardModelChange: (CreditCardModel data) {},
-    ),
+PaymentMethodsWidget(
+              amount: amount,
+              email: email,
+              storeid: storeid,
+              reference: reference,
+              transactionid: transactionid,
+              template: template,
+              currency: currency,
+              comment: comment,
+              themeColor: Color(0xFF003F5F),
+            ),
 ```
 
 ## How to use

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import './api.dart';
 import './bank_widget_home.dart';
 import './card_widget_home.dart';
-import './api.dart';
 
 class PaymentMethodsWidget extends StatefulWidget {
   const PaymentMethodsWidget({
