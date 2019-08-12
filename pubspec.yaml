@@ -1,0 +1,44 @@
+name: flutter_shockinflux
+description: A Flutter package for shockinflux payment gateway.
+version: 0.0.1
+author: Temitope Adesoji <tope.adesoji@syntaximagination.com>
+homepage: https://github.com/temitopeadesoji/flutter_shockinflux
+issue_tracker: https://github.com/temitopeadesoji/flutter_shockinflux/issues
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.15.8
+  http: ^0.12.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # To add assets to your package, add an assets section, like this:
+  assets:
+    - icons/
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: halter
+      fonts:
+        - asset: font/halter.ttf
