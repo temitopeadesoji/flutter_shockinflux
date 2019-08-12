@@ -73,12 +73,12 @@ class _CardWidgetState extends State<BankMethodsWidget> {
     );
   }
 
-  void onCreditCardModelChange(BankModel BankModel) {
+  void onCreditCardModelChange(BankModel bankModel) {
     setState(() {
-      cardNumber = BankModel.cardNumber;
-      expiryDate = BankModel.expiryDate;
-      cardHolderName = BankModel.cardHolderName;
-      cvvCode = BankModel.cvvCode;
+      cardNumber = bankModel.cardNumber;
+      expiryDate = bankModel.expiryDate;
+      cardHolderName = bankModel.cardHolderName;
+      cvvCode = bankModel.cvvCode;
     });
   }
 }

@@ -1,6 +1,6 @@
 name: flutter_shockinflux
 description: A Flutter package for shockinflux payment gateway to accept payment via various payment methods.
-version: 1.0.0
+version: 1.0.1
 author: Temitope Adesoji <tope.adesoji@syntaximagination.com>
 homepage: https://github.com/temitopeadesoji/flutter_shockinflux
 issue_tracker: https://github.com/temitopeadesoji/flutter_shockinflux/issues

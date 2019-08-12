@@ -14,7 +14,7 @@ A Flutter package for shockinflux payment gateway.
 
 ```dart
 dependencies:
-    flutter_shockinflux: 1.0.0
+    flutter_shockinflux: 1.0.1
 ```
 
 2.  Import the package
